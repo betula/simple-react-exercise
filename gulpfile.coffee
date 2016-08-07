@@ -32,7 +32,7 @@ gulp.task 'scripts', ->
     .pipe gulp.dest 'build/scripts'
 
 gulp.task 'styles', ->
-  gulp.src [ 'app/styles/**/*.{scss,css}', '!app/styles/**/_*.{scss}' ]
+  gulp.src [ 'app/styles/**/*.{scss,sass,css}', '!app/styles/**/_*.{scss,sass}' ]
     .pipe plumber()
     .pipe sourcemaps.init()
     .pipe sass indentSyntax: true

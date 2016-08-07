@@ -1,12 +1,17 @@
-
 React = require 'react'
+Keyboard = require './events/Keyboard'
+Mouse = require './events/Mouse'
+Calculator = require './exercise/Calculator'
 
-Page = React.createClass
-
-  componentWillMount: ->
-    @message = 'Hello World!'
+module.exports = React.createClass
 
   render: ->
-    <h1>{@message}</h1>
+    <div>
+      <h1>Keyboard</h1>
+      <Keyboard />
+      <h1>Mouse</h1>
+      <Mouse />
+      <h1>Calculator (exercise)</h1>
+      <Calculator />
+    </div>
 
-module.exports = Page
