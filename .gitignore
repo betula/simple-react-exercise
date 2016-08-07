@@ -1,0 +1,10 @@
+.DS_STORE
+.tmp
+/.idea
+/.settings
+/npm-debug.log
+/node_modules
+
+*.local.coffee
+
+!.gitkeep
