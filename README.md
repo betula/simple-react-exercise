@@ -1,4 +1,4 @@
-# Simple React Seed
+# Simple React Exercise
 
 ```bash
   npm run start

@@ -1,10 +1,10 @@
 {
   "version": "1.0.0",
-  "name": "simple-react-seed",
-  "description": "Simple React Seed",
+  "name": "simple-react-exercise",
+  "description": "Simple React Exercise",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/betula/simple-react-seed.git"
+    "url": "git+https://github.com/betula/simple-react-exercise.git"
   },
   "dependencies": {
     "react": "^15.0.1",
