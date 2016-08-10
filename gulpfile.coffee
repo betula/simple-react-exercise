@@ -53,7 +53,7 @@ gulp.task 'clean', (cb) ->
 
 gulp.task 'server', (done) ->
 
-  port = argv.port or '9080'
+  port = argv.port or '9088'
 
   app = express()
   app.use '/', express.static 'build'
